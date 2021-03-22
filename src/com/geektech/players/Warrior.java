@@ -11,6 +11,6 @@ public class Warrior extends Hero{
     public void applySuperAbility(Boss boss, Hero[] heroes) {
         int rise = (int) (2 + Math.random()*4);
         boss.setHealth(boss.getHealth() - getDamage() * rise);
-        System.out.println(getName()+ "rise to" + rise);
+        System.out.println(getName()+ " rise to " + rise);
     }
 }
